@@ -1,0 +1,20 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon jsonsvalid.js"
+  },
+  "author": "VanVan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-json": "^1.0.0",
+    "json-validator": "0.0.34",
+    "jsonschema": "^1.2.4",
+    "jsonvalidator": "^0.1.1",
+    "nodemon": "^1.18.10"
+  }
+}
